@@ -23,5 +23,5 @@ agent = input("Which agent do you want to play? [enter a number]")
 
 config['agent'] = {'selected': agent}
 
-configfile = open('config.ini', 'a')
+configfile = open('agent_config.ini', 'w')
 config.write(configfile)

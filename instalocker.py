@@ -156,7 +156,7 @@ def choose_11():
 
 def insta_lock_character(character):
     config = configparser.ConfigParser()
-    configfilepath = 'config.ini'
+    configfilepath = 'agent_config.ini'
     config.read(configfilepath)
 
     characterstr = config.get('agent', 'selected')
