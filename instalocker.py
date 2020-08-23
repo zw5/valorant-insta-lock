@@ -161,29 +161,29 @@ def insta_lock_character(character):
 
     characterstr = config.get('agent', 'selected')
 
-    if characterstr == "0":
-        choose_0()
     if characterstr == "1":
-        choose_1()
+        choose_0()
     if characterstr == "2":
-        choose_2()
+        choose_1()
     if characterstr == "3":
-        choose_3()
+        choose_2()
     if characterstr == "4":
-        choose_4()
+        choose_3()
     if characterstr == "5":
-        choose_5()
+        choose_4()
     if characterstr == "6":
-        choose_6()
+        choose_5()
     if characterstr == "7":
-        choose_7()
+        choose_6()
     if characterstr == "8":
-        choose_8()
+        choose_7()
     if characterstr == "9":
-        choose_9()
+        choose_8()
     if characterstr == "10":
-        choose_10()
+        choose_9()
     if characterstr == "11":
+        choose_10()
+    if characterstr == "12":
         choose_11()
 
 
